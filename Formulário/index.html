@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tá de BOBS ?</title>
+    <link rel="bootstrap.css" href="bootstrap.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <h2>Formulário de Inscrição</h2>
+        <h6>Dados Pessoais</h6>
+        <form action="">
+
+            <div class="row">
+                <div class="col-sm-3">
+                    <label>CPF:</label> <input type="text" class="form-control" placeholder="000.000.000-00">
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+                    <label class="form-check-label" for="inlineFormCheck">
+                    A pessoa é estrangeira e não possuí CPF
+                    </label>
+                </div>
+                <div class="row">
+                    <br>
+                    <div class="col-sm-12">
+                        <label>NOME:</label> <input type="text" class="form-control" placeholder="Nome">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <br>
+                    <label>E-MAIL:</label> <input type="email" class="form-control" placeholder="email@email.com">
+                </div>
+                <div class="row">
+                    <br>
+                    <label>NOME DA MÃE:</label> <input type="text" class="form-control" placeholder="Nome da mãe">
+                </div>
+                <div class="row">
+                    <br>
+                    <label>NOME DO PAI:</label> <input type="text" class="form-control" placeholder="Nome do pai">
+                </div>
+                <div class="row">
+                    <br>
+                    <div class="col-3">
+                        <label>SEXO:</label><br>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="inlineFormCheck">
+                            <label class="form-check-label" for="inlineFormCheck">
+                        Masculino
+                     </label>
+                        </div>
+                        <div class="form-check">
+                            <input class="form-check-input" type="radio" id="inlineFormCheck">
+                            <label class="form-check-label" for="inlineFormCheck">
+                        Feminino
+                        </label>
+                        </div>
+                    </div>
+                    <div class="col-3">
+                    </div>
+                    <div class="col-3">
+                        <label class="form-check-label" for="inlineFormCheck">
+                        Data de Nascimento:
+                        </label> <input type="date">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <br>
+                            <label>Estado Civil</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                            <option selected></option>
+                            <option value="1">Solteiro</option>
+                          <option value="2">Casado</option>
+                          <option value="3">Abandonado</option>
+                        </select>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <br>
+                        <div class="col-sm-5">
+                            <label>Escola de Conclusão do Ensino Médio</label> <input type="text" class="form-control" placeholder="Nome da Escola">
+                        </div>
+                        <div class="col-sm-2">
+                            <label>Ano de Conclusão</label> <input type="text" class="form-control" placeholder="Ano de Conclusão">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-3">
+                            <br>
+                            <label>Tipo de Escola:</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <option selected></option>
+                                <option value="1">Privada</option>
+                          <option value="2">Pública</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <br>
+                            <label>Tipo de Necessidade Especial:</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <option selected></option>
+                          <option value="1">Aleijado</option>
+                          <option value="2">Cego</option>
+                          <option value="3">Doido</option>
+                          <option value="4">Outros...</option>
+                        </select>
+                        </div>
+                        <div class="col-3">
+                        </div>
+                        <div class="col-3">
+                            <br>
+                            <label>Tipo Sanguíneo:</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <option selected></option>
+                          <option value="1">A+</option>
+                          <option value="2">A-</option>
+                          <option value="3">B-</option>
+                          <option value="4">B+</option>
+                          <option value="5">O+</option>
+                          <option value="6">O-</option>
+                          <option value="7">AB-</option>
+                          <option value="8">AB+</option></select>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <br>
+                        <h6>NATURALIDADE</h6>
+                        <div class="col-3">
+                            <br>
+                            <label>País:</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                    <option selected></option>
+                              <option value="1">Argentina</option>
+                              <option value="2">Brasil</option>
+                              <option value="3">Estados Unidos</option>
+                              <option value="4">Espanha</option>
+                              <option value="5">França</option>
+                              <option value="6">Portugal</option>
+                              <option value="7">Japão</option>
+                              <option value="8">China</option>
+                              <option value="9">Nigéria</option>
+                              <option value="10">Àfrica do Sul</option>
+                            </select>
+                        </div>
+
+                        <div class="col-3">
+                            <br>
+                            <label>UF:</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                <option selected></option>
+                          <option value="1">Acre</option>
+                          <option value="2">Bahia</option>
+                          <option value="3">Espirito Santo</option>
+                          <option value="4">Rio de Janeiro</option>
+                          <option value="5">São Paulo</option>
+                          <option value="6">Ceára</option>
+                          <option value="7">Alagoas</option>
+                          <option value="8">Rio Grande do Norte</option>
+                          <option value="9">Mato Grosso</option>
+                          <option value="10">Amazonas</option>
+                        </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <br>
+                        <label>Município:</label>
+                        <select class="form-select" id="inlineFormSelectPref">
+                            <option selected></option>
+                      <option value="1">Fortaleza</option>
+                      <option value="2">Crateús</option>
+                      <option value="3">Novo Oriente</option>
+                      <option value="4">Ipaporanga</option>
+                      <option value="5">Ubajara</option>
+                      <option value="6">Caucaia</option>
+                      <option value="7">Crato</option>
+                      <option value="8">Juazeiro do Norte</option>
+                      <option value="9">Maracanaú</option>
+                      <option value="10">Sobral</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <br>
+                        <label>Tipo de Nacionalidade:</label>
+                        <select class="form-select" id="inlineFormSelectPref">
+                            <option selected></option>
+                      <option value="1">Brasileiro Nato</option>
+                      <option value="2">Luso-Brasileiro</option>
+                      <option value="3">Itálo-Brasileiro</option>
+                      <option value="4">Afro-Brasileiro</option>
+                    </select>
+                    </div>
+                    <div class="col-3">
+                        <br>
+                        <label>Nacionalidade:</label>
+                        <select class="form-select" id="inlineFormSelectPref">
+                            <option selected></option>
+                      <option value="1">Brasileira(Brasil)</option>
+                      <option value="2">Português(Portugal)</option>
+                      <option value="3">Italiano(Italia)</option>
+                      <option value="4">Africano(Africa)</option>
+                    </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <h6>Documentos</h6>
+                    <div class="col-sm-3">
+                        <label>RG:</label> <input type="text" class="form-control" placeholder="0000000000-0">
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Orgão de Expedição:</label> <input type="text" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col-3">
+                        <br>
+                        <label>UF:</label>
+                        <select class="form-select" id="inlineFormSelectPref">
+                                <option selected></option>
+                          <option value="1">Acre</option>
+                          <option value="2">Bahia</option>
+                          <option value="3">Espirito Santo</option>
+                          <option value="4">Rio de Janeiro</option>
+                          <option value="5">São Paulo</option>
+                          <option value="6">Ceára</option>
+                          <option value="7">Alagoas</option>
+                          <option value="8">Rio Grande do Norte</option>
+                          <option value="9">Mato Grosso</option>
+                          <option value="10">Amazonas</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-3">
+                        <label>Data de Expedição:</label> <input type="date" class="form-control">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12"></div>
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <label>Titulo de Eleitor:</label> <input type="text" class="form-control">
+                        </div>
+                        <div class="col-sm-2">
+                            <label>Zona:</label> <input type="text" class="form-control">
+                        </div>
+                        <div class="col-sm-2">
+                            <label>Seção:</label> <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-3">
+                            <br>
+                            <label>UF:</label>
+                            <select class="form-select" id="inlineFormSelectPref">
+                                    <option selected></option>
+                              <option value="1">Acre</option>
+                              <option value="2">Bahia</option>
+                              <option value="3">Espirito Santo</option>
+                              <option value="4">Rio de Janeiro</option>
+                              <option value="5">São Paulo</option>
+                              <option value="6">Ceára</option>
+                              <option value="7">Alagoas</option>
+                              <option value="8">Rio Grande do Norte</option>
+                              <option value="9">Mato Grosso</option>
+                              <option value="10">Amazonas</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-3">
+                            <label>Data de Emissão:</label> <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <label>Passaporte:</label> <input type="date" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <h6>Endereço</h6>
+                        <div class="col-sm-3">
+                            <label>CEP:</label> <input type="text" class="form-control">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <label>Logradouro:</label> <input type="text" class="form-control">
+                        </div>
+                        <div class="col-sm-2">
+                            <label>N°:</label> <input type="text" class="form-control">
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <label>Bairro:</label> <input type="text" class="form-control">
+                            </div>
+                            <div class="col-sm-3">
+                                <label>Compemeto:</label> <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-3">
+                                <br>
+                                <label>UF:</label>
+                                <select class="form-select" id="inlineFormSelectPref">
+                                        <option selected></option>
+                                  <option value="1">Acre</option>
+                                  <option value="2">Bahia</option>
+                                  <option value="3">Espirito Santo</option>
+                                  <option value="4">Rio de Janeiro</option>
+                                  <option value="5">São Paulo</option>
+                                  <option value="6">Ceára</option>
+                                  <option value="7">Alagoas</option>
+                                  <option value="8">Rio Grande do Norte</option>
+                                  <option value="9">Mato Grosso</option>
+                                  <option value="10">Amazonas</option>
+                                </select>
+                            </div>
+                            <div class="col-3">
+                                <br>
+                                <label>Município:</label>
+                                <select class="form-select" id="inlineFormSelectPref">
+                                    <option selected></option>
+                              <option value="1">Fortaleza</option>
+                              <option value="2">Crateús</option>
+                              <option value="3">Novo Oriente</option>
+                              <option value="4">Ipaporanga</option>
+                              <option value="5">Ubajara</option>
+                              <option value="6">Caucaia</option>
+                              <option value="7">Crato</option>
+                              <option value="8">Juazeiro do Norte</option>
+                              <option value="9">Maracanaú</option>
+                              <option value="10">Sobral</option>
+                            </select>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <label>Tel.Fixo:</label> <input type="text" class="form-control">
+                            </div>
+                            <div class="col-sm-3">
+                                <label>Tel.Celular:</label> <input type="text" class="form-control">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <h6>Observações</h6>
+                            <p>Utilize o campo abaixo para informar eventuais observações solicitadas da descrição desse processo seletivo</p>
+                            input
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
+    </form>
+    </div>
+
+
+</body>
+
+</html>
